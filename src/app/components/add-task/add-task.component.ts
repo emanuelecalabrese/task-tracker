@@ -32,6 +32,7 @@ export class AddTaskComponent implements OnInit {
     }
 
     const newTask : Task = {
+      taskId: 0,
       text: this.text,
       day: this.day,
       reminder: this.reminder
